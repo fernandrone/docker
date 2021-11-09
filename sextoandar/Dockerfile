@@ -1,6 +1,6 @@
 FROM golang:1.16
 
-WORKDIR /go/src/github.com/fernandrone/bootcamp-docker/sextoandar
+WORKDIR /go/src/github.com/fernandrone/docker/sextoandar
 
 COPY static static
 COPY main.go main.go
